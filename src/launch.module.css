@@ -12,6 +12,15 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+
+  .section{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background:#0A192F
+  }
   
   .container{
     background:#fff;

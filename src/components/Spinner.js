@@ -1,9 +1,9 @@
 import React from 'react'
-import spinner from '../spinner-inner.css'
+import  '../spinnerStyle.css'
 const Spinner = () => {
   return (
    
-      <div className="spinner-inner">
+  <div className='spinner'>
   <div className="dot1"></div>
   <div className="dot2"></div>
 </div>

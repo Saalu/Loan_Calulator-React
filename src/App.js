@@ -38,6 +38,7 @@ loanInformation = (amount, term)=>{
   })
 }
 
+
 componentDidMount(){
   this.setState({
     isLoggedIn:true
@@ -78,8 +79,8 @@ if(isLoggedIn){
   }
 else{
     return (
-<Fragment>
-<h1 className='messages'>Training on React</h1>
+  <Fragment>
+    <h1 className='messages'>Training on React</h1>
 
       <div className="container">
       <Form loanInformation={this.loanInformation}/>
